@@ -23,6 +23,8 @@ OUTPUT -
 
 */
 
+// ---------------------------------------------------------------------------------------------------
+
 // Q2 -> Right Angled Triangle Pattern (Reverse)
 
 // let n = 5 ;
@@ -45,6 +47,7 @@ OUTPUT -
 
 */
 
+// ---------------------------------------------------------------------------------------------------
 
 // Q3 -> Right Angled Triangle Pattern (Reverse(Reverse))
 
@@ -68,8 +71,37 @@ OUTPUT -
 
 */
 
+// ---------------------------------------------------------------------------------------------------
 
-// Q4 -> Pyramid Triangle Pattern 
+// Q4 -> Left Right Triangle Pattern
+
+// let n = 5;
+// for ( i = 1; i<=n; i++ ){
+//     for ( j = n - 1 ; j>=i; j-- ){
+//         process.stdout.write("  ");
+//     }
+//     for ( k=1; k<=i; k++ ){
+//         process.stdout.write("*");
+//         process.stdout.write(" ");
+//     }
+//     console.log()
+// }
+
+/*
+
+OUTPUT - 
+
+        *
+      * *
+    * * *
+  * * * *
+* * * * *
+
+*/
+
+// ---------------------------------------------------------------------------------------------------
+
+// Q5 -> Pyramid Triangle Pattern 
 
 // let n = 5;
 // for (let i = 1; i <= n; i++) {
@@ -94,7 +126,9 @@ OUTPUT -
 
 */
 
-// Q5 -> Pyramid Triangle Pattern ( REVERSE )
+// ---------------------------------------------------------------------------------------------------
+
+// Q6 -> Pyramid Triangle Pattern ( REVERSE )
 
 // let n = 5;
 
@@ -120,7 +154,9 @@ OUTPUT -
 
 */
 
-// Q6 -> Half Diamond Pattern
+// ---------------------------------------------------------------------------------------------------
+
+// Q7 -> Half Diamond Pattern
 // let n = 9;
 // let mid = Math.floor(n / 2) + 1;
 
@@ -152,8 +188,35 @@ OUTPUT -
 * *
 *
 
-
 */
+
+// ---------------------------------------------------------------------------------------------------
+
+// Q8 -> Diamond Pattern
+
+// let n = 9;
+// let mid = Math.floor(n / 2) + 1;
+
+// for (i = 1; i <= n; i++) {
+//     if (i <= mid) {
+//         for (j = mid; j > i; j--) {
+//             process.stdout.write("  ")
+//         }
+//         for (k = 1; k <= (2 * i) - 1; k++) {
+//             process.stdout.write("*")
+//             process.stdout.write(" ")
+//         }
+//     }
+//     if (i > mid) {
+//         for (l = i; l > mid ;l--) {
+//             process.stdout.write("-")
+//             process.stdout.write(" ")
+//         }
+//         for(    ){ *INCOMPLETE*
+          
+//         }
+//     console.log()
+// }
 
 
 
