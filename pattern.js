@@ -213,10 +213,102 @@ OUTPUT -
 //             process.stdout.write(" ")
 //         }
 //         for(    ){ *INCOMPLETE*
-          
+
 //         }
 //     console.log()
 // }
 
+// ---------------------------------------------------------------------------------------------------
 
+// Q9 Write a program to print hollow square. 
 
+// let n = 5;
+
+// for (i = 1; i <= n; i++) {
+//   for (j = 1; j <= n; j++) {
+//     if (i == 1 || j == 1 || i == 5 || j == 5) {
+//       process.stdout.write(" ")
+//       process.stdout.write("*")
+//     } else {
+//       process.stdout.write("  ")
+//     }
+//   }
+//   console.log()
+// }
+
+/*
+
+// OUTPUT - 
+
+* * * * *
+*       *
+*       *  
+*       *  
+* * * * *
+ 
+
+*/
+
+// ---------------------------------------------------------------------------------------------------
+
+// Q10 - Write a program to print a hollow rectangle. 
+
+// let n = 6;
+
+// for ( i = 1 ; i<=n; i++ ){
+//   for ( j = 1 ; j<=n+2; j++ ){
+//     if ( i == 1 || i == n || j== 1 || j == n+2 ){
+//       process.stdout.write("*")
+//     }else{
+//       process.stdout.write(" ")
+//     }
+//   }
+//   console.log()
+// }
+
+/*
+
+OUTPUT - 
+
+********
+*      *
+*      *
+*      *
+*      *
+********
+
+*/
+
+// ---------------------------------------------------------------------------------------------------
+
+// Q11 - Write a program to print a hollow triangle. 
+
+// let n = 5;
+
+// for (i = 1; i <= n; i++) {
+//   for (j = n; j >= i + 1; j--) {
+//     process.stdout.write(" ");
+//   }
+//   for (k = 1; k <= (2 * i) - 1; k++) {
+//     if ((i == 1) || (i == n) || (j == 1) || (j == (2 * i) - 1)) {
+//       process.stdout.write("*");
+//     } else {
+//       process.stdout.write(" ");
+//     }
+//   }
+//   console.log()
+// }
+
+/*
+
+OUTPUT - 
+
+//     *
+//    * *
+//   *   *
+//  *     *
+// *********
+
+*/
+
+// ---------------------------------------------------------------------------------------------------
