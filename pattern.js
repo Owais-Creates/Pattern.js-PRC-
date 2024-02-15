@@ -312,3 +312,45 @@ OUTPUT -
 */
 
 // ---------------------------------------------------------------------------------------------------
+
+// Q12 - Write a function which takes upper pyramid and lower pyramid  as input parameters and prints a diamond.
+
+// function upperD(n) {
+//   for (let i = 1; i <= n; i++) {
+//       for (j = n - i; j >= 1; j--) {
+//           process.stdout.write(" ")
+//       }
+//       for (k = 1; k <= (2 * i - 1); k++) {
+//           process.stdout.write("*");
+//       }
+//       console.log();
+//   }
+// }
+
+// upperD(5)
+
+// function lowerD(n) {
+
+//   for (let i = n - 1; i >= 1; i--) {
+//       for (j = n; j > i; j--) {
+//           process.stdout.write(" ")
+//       }
+//       for (k = (2 * i) - 1; k >= 1; k--) {
+//           process.stdout.write("*");
+//       }
+//       console.log();
+//   }
+
+// }
+
+// // lowerD(5)
+
+// function diamond(n) {
+
+//   upperD(n);
+//   lowerD(n);
+// }
+
+// diamond(7)
+
+// ---------------------------------------------------------------------------------------------------
